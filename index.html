@@ -5,16 +5,21 @@
         <title>Challenge: The dinner table</title>
         <style>
           table, th, td {
-            border: 1px solid;
-          }
+            border: 1px solid; padding: 3px; tr:nth-child(even) {background-color: #c3d9eb;} }
+            th {
+  background-color: #82a2ba;
+  color: white;
+}
+          body {font-family: Arial narrow;}
+      
         </style>
     </head>
     <body>
     
         <h1>Our dinner menu</h1>
       
-          <img src="plate_blue.jpg" width=50>
-          <img src="plate_yellow.jpg" width=50>
+          <img src="plate_blue.jpg" width="50">
+          <img src="plate_yellow.jpg" width="50">
       
         <table>
             <thead>
@@ -25,7 +30,22 @@
                 </tr>
             </thead>
             <tbody>
-                
+                <tr>
+              <td>sandwich</td>
+                  <td> bread, ham, cheese, lettuce</td>
+                  <td>$8</td>
+              </tr>
+              <tr> 
+            <td>fried rice</td>
+            <td>rice, carrot, pepper, pork, zuchinni</td>
+            <td>$11</td>
+              </tr>    
+              <tr>
+              <td>ramen</td>
+              <td>noodles, seaweed, green onion</td>
+              <td>$11</td>
+              </tr>
+              
             </tbody>
         </table>
 
